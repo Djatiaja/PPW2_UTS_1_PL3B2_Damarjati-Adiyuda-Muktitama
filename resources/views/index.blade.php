@@ -1,8 +1,9 @@
 @extends("Layout.layout")
 @section('content')
+<div style="width: 100%; display: flex; justify-content: center; font-size: 17px;">
 
-    <Table>
-        <thead>
+    <Table border="1">
+        <thead style="font-weight: bold; font-size: 24px;">
             <tr>
                 <th>
                     Nama Pemain
@@ -39,4 +40,6 @@
 
 
     </Table>
+</div>
+
 @endsection
